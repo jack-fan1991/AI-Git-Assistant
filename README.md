@@ -1,6 +1,5 @@
-# AI Git Script
 
-This repository contains a script to assist with Git commits, featuring a graphical user interface (GUI) built using the `flet` library.
+#### ❗❗ This version currently supports only macOS
 
 ## **Git AI Assistant**
 
@@ -20,33 +19,30 @@ Git AI Assistant is an AI-powered tool that helps developers generate clear and 
 | Other AI Engines | ❌ Not Supported |
 
 ###  Gemini API key
-- You need to get a Gemini API key from [Gemini API](https://aistudio.google.com/app/apikey?hl=zh-tw) and add it to the `config.py` file.
+- You need to get a Gemini API key from [Gemini API](https://aistudio.google.com/app/apikey?hl=zh-tw) .
 - [More](https://ai.google.dev/gemini-api/docs/api-key?hl=zh-tw)
 
-## Getting Started
-command:
+
+## Download and Install
+First, download the setup script.
+
+[Click here to download](https://drive.google.com/file/d/1cJ1Zt9jtLX14jRtkCvrh3sA1n6NceLA0/view?usp=sharing)
+
+### Step 1: Move to the Downloaded Location
+After downloading the script, navigate to the directory where the `download.sh` file was saved. You can do this using the terminal.
+
+For example, if the file was saved in your Downloads folder:
 
 ```bash
-git clone https://github.com/jack-fan1991/ai_git_script.git &&
-cd ai_git_script
-sh sh/setup.sh
-# Flow the setup script to install required Python packages.
-# After setup done use aiCommit in project directory to run the script.
-# For example:
-cd my_project && aiCommit
+cd ~/Downloads && sh download.sh
+```
+### Launch AI Assistant GUI
+- Make sure to **cd** into your project folder, which must be a Git version-controlled project.
 
-#For Help
-aiCommit --help
-#For CLI
-aiCommit
-#For GUI
-aiCommit --gui
+```bash
+cd my_project && aiCommit
 ```
 
-### Setup and Install Dependencies
+##### Dependencies
 - Run the setup script to install required Python packages. This script will check for the flet module and prompt you to install it if necessary:
-
-### Flet
-- [Flet](https://flet.dev/docs/)
-- [Flet gallery](https://flet-controls-gallery.fly.dev/navigation)
 
