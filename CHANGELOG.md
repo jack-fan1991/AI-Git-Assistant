@@ -1,3 +1,7 @@
+# 0.0.21
+- fix 修正開啟app沒有顯示stage狀態
+- fix ChangeLog 顯示訊息錯誤
+
 # 0.0.20
 - 將 Review Stage 更名為  DiffReview
 - 優化 Review Stage  => 提高 Review commit 的可讀性 , 可使用key point 再次截取重點
