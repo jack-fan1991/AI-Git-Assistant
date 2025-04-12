@@ -1,5 +1,5 @@
 # 0.0.21
-- fix 修正開啟app沒有顯示stage狀態
+- fix 修正開啟app沒有顯示git file 狀態(stage/unStage/untracked)
 - fix ChangeLog 顯示訊息錯誤
 
 # 0.0.20
