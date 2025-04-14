@@ -1,4 +1,4 @@
-# 0.0.21
+# 0.0.22
 - feat settings/新增 Keep Prompt Style 讓 key point 保持樣式 預設為 false
 
 # 0.0.21
