@@ -1,4 +1,7 @@
 # 0.0.21
+- feat settings/新增 Keep Prompt Style 讓 key point 保持樣式 預設為 false
+
+# 0.0.21
 - fix 修正開啟app沒有顯示git file 狀態(stage/unStage/untracked)
 - fix ChangeLog 顯示訊息錯誤
 
