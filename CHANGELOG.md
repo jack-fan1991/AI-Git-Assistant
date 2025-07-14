@@ -1,3 +1,6 @@
+# 0.0.23
+- feat 模型更新為 gemini-2.0-flash
+
 # 0.0.22
 - feat settings/新增 Keep Prompt Style 讓 key point 保持樣式 預設為 false
 
